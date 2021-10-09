@@ -32,12 +32,14 @@ class _BottomNavBarState extends State<BottomNavBar> {
         bottomNavigationBar: CurvedNavigationBar(
           key: _bottomNavigationKey,
           index: 0,
-          height: 60.0,
+          height: 52.0,
           items: <Widget>[
             bottomItem(
                 title: "Wish List", index: 0, icon: Icons.favorite_border),
             bottomItem(title: "Home", index: 1, icon: Icons.home),
             bottomItem(title: "My Cart", index: 2, icon: Icons.shopping_cart),
+            bottomItem(title: "Orders", index: 3, icon: Icons.list_alt),
+            bottomItem(title: "Account", index: 4, icon: Icons.account_box_outlined),
           ],
           color: Colors.black,
           buttonBackgroundColor: Colors.white,
